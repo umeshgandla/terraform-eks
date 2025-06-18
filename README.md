@@ -33,3 +33,12 @@ Output the EKS cluster endpoint and kubeconfig
 
 Once Terraform finishes, copy the kubeconfig output to your local kubeconfig file:
 
+
+## Node Audit Script
+
+Run the audit:
+
+
+chmod +x node_audit.sh
+./node_audit.sh
+
